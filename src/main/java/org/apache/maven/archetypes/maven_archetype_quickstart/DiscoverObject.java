@@ -2,15 +2,15 @@ package org.apache.maven.archetypes.maven_archetype_quickstart;
 
 public class DiscoverObject {
 	
-	private String movieRating;
+	private Double movieRating;
 	private String movieTitle;
 	private String releaseDate;
 	private String posterPath;
 	
-	public String getMovieRating() {
+	public Double getMovieRating() {
 		return movieRating;
 	}
-	public void setMovieRating(String movieRating) {
+	public void setMovieRating(Double movieRating) {
 		this.movieRating = movieRating;
 	}
 	public String getMovieTitle() {
